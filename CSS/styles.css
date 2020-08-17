@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Libre Caslon Display", serif;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: palevioletred;
+  display: block;
+  padding: 10px;
+  background-color: yellow;
+  width: 100%;
+}
+
+header {
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  margin: 10px;
+  padding: 0;
+  font-weight: 600;
+  text-align: left;
+  font-size: 60px;
+  font-family: "Libre Caslon Display", serif;
+  color: palevioletred;
+}
+p {
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  font-weight: 200;
+  text-align: left;
+  font-size: 25px;
+  color: palevioletred;
+}
+
+
+li {
+  color: palevioletred;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  display: inline-block;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.container main{
+    flex: 1 0 70%;
+    padding: 10px 40px 12px 14px;
+
+}
+.container aside {
+    flex: 0 1 30%;
+}
+
+
+
+footer {
+  height: 40px;
+  width: 100%;
+  background-color: yellow;
+  color: palevioletred;
+  font-weight: 800;
+  text-align: center;
+}
+
+.icon {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.6em;
+  color: palevioletred;
+}
+.icon:hover {
+  color: yellow;
+}
+.container aside {
+    flex: 0 1 30%;
+}
+.gps {
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 280px){
+
+body {
+    background-color:pink;
+}
+}
+@media screen and (min-width: 580px) {
+nav ul {
+    flex-direction: row;
+}
+}
